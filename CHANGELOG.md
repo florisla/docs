@@ -1,6 +1,6 @@
 # CHANGELOG
 
-Below you can find complete list of changes to images, sorted by date.
+Below you can find a complete list of changes to the Docker images, sorted by date.
 
 ## 04-07-2018
 
