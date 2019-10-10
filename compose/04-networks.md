@@ -2,21 +2,21 @@ Networks
 =================
 
 Ok, you have multi-container app now, and you know how to link containers together.
-But we should remember container has to be up&running to link them one to another. 
-What if your db container crash? Unfortunately, you would have to rebuild php as well.
+But we should remember that the containers need to be up&running to link them together. 
+What if your db container crashes? Unfortunately, you would have to rebuild php as well.
 
-## Networks for the rescue!
+## Networks to the rescue!
 
-Docker introduce networking tool which took over linking functionality.
+Docker introduces a networking tool which takes over linking functionality.
 You can create networks and add containers to those networks so they can connect
-each other. Let's build simple app with two networks:
+to each other. Let's build a simple app with two networks:
 
 - back-tier
 - front-tier
 
-First one groups all containers vital for our application, like php and db,
-while second one contain only containers which are relevant for exposing app to
-the outside world.
+The first one groups all containers vital for our application, like php and db,
+while the second one contains only containers which are relevant for exposing the
+app to the outside world.
 
 You can build your application as always:
 ```
