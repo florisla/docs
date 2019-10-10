@@ -1,10 +1,9 @@
 Volumes
 ===================
 
-Your application lives only if containers remain alive. If you want to make data
-storage persistent use volumes.
+Your application lives only as long as its containers remain running. To make data storage persistent, you have to use volumes.
 
-How? Nothing change here:
+How? Nothing changes here:
 
 ```
 docker-compose up -d
